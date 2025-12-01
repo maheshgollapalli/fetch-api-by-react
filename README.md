@@ -1,16 +1,79 @@
-# React + Vite
+# Fetch API by React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application demonstrating the usage of Fetch API to make HTTP requests, display data, and handle loading and error states.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches data from an external API
+- Displays the fetched data in a list/table format
+- Handles loading and error states gracefully
+- Clean and minimal React component structure
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js (v14 or higher recommended)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/maheshgollapalli/fetch-api-by-react.git
+   cd fetch-api-by-react
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running the App
+
+Start the development server:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+The app should be running at [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
+
+```
+fetch-api-by-react/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+└── package.json
+```
+
+## Example Usage
+
+The app fetches a list of items (for example, posts or users) from a public REST API and displays them. You can modify the API endpoint in the source code to fetch different data.
+
+## Customization
+
+- Change the API endpoint in the relevant component (usually in `App.js`).
+- Add new components to display different types of data.
+- Style the components using CSS modules or styled-components.
+
+## Contributing
+
+Contributions, issues and feature requests are welcome!<br>
+Feel free to check [issues page](https://github.com/maheshgollapalli/fetch-api-by-react/issues).
+
+## License
+
+This project is [MIT](LICENSE) licensed.
+
+---
+Happy coding!
