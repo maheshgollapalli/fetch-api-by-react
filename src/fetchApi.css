@@ -1,0 +1,37 @@
+
+body {
+background: #f0f4f7;
+}
+
+.container {
+width: 90%;
+max-width: 1100px;
+margin: auto;
+padding: 20px;
+}
+
+.product-card {
+background: white;
+padding: 15px;
+margin: 15px 0;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+width: 150px;
+height: 150px;
+object-fit: contain;
+display: block;
+margin-top: 10px;
+}
+
+.product-card h2 {
+font-size: 22px;
+margin-bottom: 8px;
+}
+
+.product-card p {
+font-size: 18px;
+margin-bottom: 8px;
+}
